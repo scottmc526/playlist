@@ -34,7 +34,7 @@
   margin-left: 30vw;
   margin-top: -43vh;
 }
-p {
+.tbin {
   color: #490063;
   font-size: 40px;
   margin-bottom: 2vh;
@@ -54,4 +54,9 @@ img {
   width: 82%;
   height: 100%;
   opacity: 0.19;
+}
+.end {
+  margin-left: 5vw;
+  font-family: arial;
+  color: #dededc;
 }

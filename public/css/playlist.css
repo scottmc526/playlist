@@ -9,14 +9,15 @@ header {
   background-color: #9b9b8c;
 }
 main {
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
   height: 60vh;
   width: 61%;
 }
 footer {
-  border: 1px solid black;
   height: 10vh;
   width: 61%;
+  background-color: #686859;
 }
 .head {
   font-family: avenir;
@@ -24,4 +25,93 @@ footer {
   color: #fefefe;
   margin-left: 5vw;
   margin-top: 24vh;
+}
+.scroll {
+  overflow-y: scroll;
+  height: 20vh;
+  width: 100%;
+}
+.adele {
+  order: 1;
+  width: 60px;
+  height: 60px;
+  margin-top: 2vh;
+  margin-left: 2vw;
+}
+.division {
+  order: 2;
+  width: 60px;
+  height: 60px;
+  margin-top: 2vh;
+  margin-left: 2vw;
+}
+.ghost {
+  order: 3;
+  width: 60px;
+  height: 60px;
+  margin-top: 2vh;
+  margin-left: 2vw;
+}
+.red {
+  order: 4;
+  width: 60px;
+  height: 60px;
+  margin-top: 2vh;
+  margin-left: 2vw;
+}
+.thriller {
+  order: 5;
+  width: 60px;
+  height: 60px;
+  margin-top: 2vh;
+  margin-left: 2vw;
+}
+.adele1 {
+  order: 6;
+  width: 60px;
+  height: 60px;
+  margin-top: 2vh;
+  margin-left: 2vw;
+}
+.thriller1 {
+  order: 7;
+  width: 60px;
+  height: 60px;
+  margin-top: 2vh;
+  margin-left: 2vw;
+}
+.red1 {
+  order: 8;
+  width: 60px;
+  height: 60px;
+  margin-top: 2vh;
+  margin-left: 2vw;
+}
+.text{
+  border: 2px solid black;
+  width: 75%;
+  height: 25vh;
+  margin-left: 5vw;
+  background-color: #eeeeee;
+  font-family: avenir;
+}
+.buttons {
+  margin-top: 2vh;
+  margin-left: 5vw;
+}
+button {
+  width: 12vw;
+  height: 5vh;
+  border-radius: 5px;
+  background-color: #353526;
+  color: #dededc;
+  font-family: avenir;
+  font-size: 15px;
+  border: 0px
+}
+.end {
+  position: relative;
+  margin-left: 5vw;
+  font-family: avenir;
+  color: #dededc;
 }

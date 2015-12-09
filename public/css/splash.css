@@ -39,7 +39,7 @@
   color: #490063;
   font-size: 40px;
   margin-bottom: 2vh;
-  font-family: arial;
+  font-family: avenir;
 }
 button {
   width: 12vw;
@@ -47,7 +47,7 @@ button {
   border-radius: 5px;
   background-color: #353526;
   color: #dededc;
-  font-family: arial;
+  font-family: avenir;
   font-size: 15px;
   border: 0px
 }
@@ -83,6 +83,6 @@ button {
 .end {
   position: relative;
   margin-left: 5vw;
-  font-family: arial;
+  font-family: avenir;
   color: #dededc;
 }

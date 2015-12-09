@@ -1,3 +1,27 @@
 body {
-  background-color: red;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+header {
+  height: 30vh;
+  width: 61%;
+  background-color: #9b9b8c;
+}
+main {
+  border: 1px solid black;
+  height: 60vh;
+  width: 61%;
+}
+footer {
+  border: 1px solid black;
+  height: 10vh;
+  width: 61%;
+}
+.head {
+  font-family: avenir;
+  font-size: 22px;
+  color: #fefefe;
+  margin-left: 5vw;
+  margin-top: 24vh;
 }

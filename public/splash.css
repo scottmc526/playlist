@@ -29,10 +29,11 @@
   flex-grow: 2;
 }
 .pic {
-  height: 95%;
+  height: 100%;
   width: inherit;
   margin-left: 30vw;
-  margin-top: -43vh;
+  margin-top: -45vh;
+  position: relative;
 }
 .tbin {
   color: #490063;
@@ -50,12 +51,37 @@ button {
   font-size: 15px;
   border: 0px
 }
-img {
+.train {
   width: 82%;
   height: 100%;
   opacity: 0.19;
+  z-index: 1;
+  position: absolute;
+}
+.hotAdele {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  z-index: 4;
+  margin-left: 9vw;
+  margin-top: 3vh;
+}
+.red {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  z-index: 3;
+  margin-left: 9vw;
+}
+.thriller {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  z-index: 2;
+  margin-left: 9vw;
 }
 .end {
+  position: relative;
   margin-left: 5vw;
   font-family: arial;
   color: #dededc;

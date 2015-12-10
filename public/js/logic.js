@@ -28,7 +28,8 @@ $(document).ready(function (){
   }
 
   for (var i = 0; i < allImages(getter).length; i++) {
-    $('.scroll').append('<img class="red" src="images/'+allImages(getter)[i]+'"/>')
+    var myId = 'song'+ i;
+    $('.scroll').append('<p id'+myId+'><img class="red" src="images/'+allImages(getter)[i]+'"/></p>')
   }
   })
 })

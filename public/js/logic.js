@@ -35,8 +35,9 @@ $(document).ready(function (){
 
   //Get title of album when it is clicked
     $(document).on('click', 'p', function(){
+      var arr = []
       var id = this.id
-      var inside = $('.text').append(payload['results'][id]['title'] + '<br>');
+      var inside = arr.push($('.text').append(payload['results'][id]['title'] + '<br>'))
     })
   })
 })

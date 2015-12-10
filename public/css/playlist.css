@@ -45,6 +45,7 @@ footer {
   margin-left: 5vw;
   background-color: #eeeeee;
   font-family: avenir;
+  overflow-x: scroll;
 }
 .buttons {
   margin-top: 2vh;
@@ -58,7 +59,7 @@ button {
   color: #dededc;
   font-family: avenir;
   font-size: 15px;
-  border: 0px
+  border: 0px;
 }
 .end {
   position: relative;

@@ -13,12 +13,6 @@ $(document).ready(function (){
     }
   return arr;
   }
-
-
-  for (var i = 0; i < randomImages(getter).length; i++) {
-    $('.pic').append('<img class="red"src="images/'+randomImages(getter)[0]+'"/>')
-  }
-
   var allImages = function () {
     var arr = [];
     for (var i = 0; i < payload['results'].length; i++) {
@@ -27,9 +21,22 @@ $(document).ready(function (){
     return arr;
   }
 
-  for (var i = 0; i < allImages(getter).length; i++) {
-    var myId = 'song'+ i;
-    $('.scroll').append('<p id'+myId+'><img class="red" src="images/'+allImages(getter)[i]+'"/></p>')
+
+  // append random images to index.html
+  for (var i = 0; i < randomImages().length; i++) {
+    $('.pic').append('<img class="red"src="images/'+randomImages()[0]+'"/>')
   }
+
+  //append all images to playlist.html
+  for (var i = 0; i < allImages().length; i++) {
+    var myId = i;
+    var content = $('.scroll').append('<p id='+myId+'><img class="red" src="images/'+allImages()[i]+'"/></p>')
+  }
+
+  //Get title of album when it is clicked
+    $(document).on('click', 'p', function(){
+      var id = this.id
+      $('.text').append(payload['results'][id]['title'] + '<br>');
+    })
   })
 })

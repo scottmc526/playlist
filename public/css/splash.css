@@ -58,28 +58,15 @@ button {
   z-index: 1;
   position: absolute;
 }
-.hotAdele {
-  position: relative;
-  width: 130px;
-  height: 130px;
-  z-index: 4;
-  margin-left: 9.9vw;
-  margin-top: 3vh;
-}
 .red {
+  margin-top: 3vh;
   position: relative;
   width: 130px;
   height: 130px;
   z-index: 3;
   margin-left: 9.9vw;
 }
-.thriller {
-  position: relative;
-  width: 130px;
-  height: 130px;
-  z-index: 2;
-  margin-left: 9.9vw;
-}
+
 .end {
   position: relative;
   margin-left: 5vw;

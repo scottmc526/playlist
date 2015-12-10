@@ -1,0 +1,9 @@
+{
+  "firebase": "q1assess",
+  "public": "public",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
